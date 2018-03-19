@@ -8,8 +8,6 @@ Signed-off-by: Nobuhiro Iwamatsu <iwamatsu@nigauri.org>
  doc/header.html | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
-diff --git a/doc/header.html b/doc/header.html
-index 94d42b400a..73e69f7484 100644
 --- a/doc/header.html
 +++ b/doc/header.html
 @@ -9,7 +9,7 @@
@@ -19,8 +17,5 @@ index 94d42b400a..73e69f7484 100644
 -<script type="text/javascript" src="$relpath^jquery.js"></script>
 +<script type="text/javascript" src="/usr/share/javascript/jquery/jquery.js"></script>
  <script type="text/javascript" src="$relpath^dynsections.js"></script>
+ <script type="text/javascript" src="$relpath^tutorial-utils.js"></script>
  $treeview
- $search
--- 
-2.14.1
-
