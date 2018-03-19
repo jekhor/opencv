@@ -1,4 +1,3 @@
-support_multiarch
 fix_ftbfs_on_non_linux
 disable_opengl_test_build
 mathjax
