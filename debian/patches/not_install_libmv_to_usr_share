@@ -1,0 +1,11 @@
+--- a/contrib/modules/sfm/src/libmv_light/CMake/Installation.cmake
++++ b/contrib/modules/sfm/src/libmv_light/CMake/Installation.cmake
+@@ -3,7 +3,7 @@
+ 
+ if(NOT BUILD_SHARED_LIBS)
+   ocv_install_target(${name} EXPORT OpenCVModules
+-    ARCHIVE DESTINATION ${OPENCV_3P_LIB_INSTALL_PATH} COMPONENT dev)
++      ARCHIVE DESTINATION ${OPENCV_3P_LIB_INSTALL_PATH} COMPONENT dev)
+ endif()
+ 
+ ENDMACRO (LIBMV_INSTALL_LIB)

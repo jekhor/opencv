@@ -3,7 +3,8 @@ usr/lib/*/libopencv_bgsegm.so.*
 usr/lib/*/libopencv_bioinspired.so.*
 usr/lib/*/libopencv_ccalib.so.*
 usr/lib/*/libopencv_datasets.so.*
-# usr/lib/*/libopencv_dnn.so.*
+usr/lib/*/libopencv_dnn.so.*
+usr/lib/*/libopencv_dnn_objdetect.so.*
 usr/lib/*/libopencv_dpm.so.*
 usr/lib/*/libopencv_face.so.*
 usr/lib/*/libopencv_freetype.so.*
@@ -25,3 +26,7 @@ usr/lib/*/libopencv_tracking.so.*
 usr/lib/*/libopencv_ximgproc.so.*
 usr/lib/*/libopencv_xobjdetect.so.*
 usr/lib/*/libopencv_xphoto.so.*
+usr/lib/*/libopencv_sfm.so.*
+usr/lib/*/libopencv_hfs.so.*
+usr/lib/*/libopencv_xfeatures2d.so.*
+

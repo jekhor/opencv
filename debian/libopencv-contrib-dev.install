@@ -19,10 +19,13 @@ usr/include/opencv2/ccalib.hpp
 usr/lib/*/libopencv_ccalib.a
 usr/lib/*/libopencv_ccalib.so
 # dnn / disable / need protobuf 3.1
-#usr/include/opencv2/dnn/*
-#usr/include/opencv2/dnn.hpp
-#usr/lib/*/libopencv_dnn.a
-#usr/lib/*/libopencv_dnn.so
+usr/include/opencv2/dnn/*
+usr/include/opencv2/dnn.hpp
+usr/include/opencv2/core_detect.hpp
+usr/lib/*/libopencv_dnn.a
+usr/lib/*/libopencv_dnn.so
+usr/lib/*/libopencv_dnn_objdetect.a
+usr/lib/*/libopencv_dnn_objdetect.so
 # dpm
 usr/include/opencv2/dpm.hpp
 usr/lib/*/libopencv_dpm.a
@@ -83,10 +86,10 @@ usr/include/opencv2/rgbd.hpp
 usr/lib/*/libopencv_rgbd.a
 usr/lib/*/libopencv_rgbd.so
 # tracking / disable by dnn
-#usr/include/opencv2/tracking/*
-#usr/include/opencv2/tracking.hpp
-#usr/lib/*/libopencv_tracking.a
-#usr/lib/*/libopencv_tracking.so
+usr/include/opencv2/tracking/*
+usr/include/opencv2/tracking.hpp
+usr/lib/*/libopencv_tracking.a
+usr/lib/*/libopencv_tracking.so
 # datasets
 usr/include/opencv2/datasets/*
 # usr/include/opencv2/datasets.hpp
@@ -135,4 +138,18 @@ usr/include/opencv2/tracking/*
 usr/include/opencv2/tracking.hpp
 usr/lib/*/libopencv_tracking.a
 usr/lib/*/libopencv_tracking.so
+# sfm
+usr/include/opencv2/sfm.hpp
+usr/include/opencv2/sfm/*
+usr/lib/*/libmultiview.a
+usr/lib/*/libcorrespondence.a
+usr/lib/*/libnumeric.a
+# hfs
+usr/include/opencv2/hfs.hpp
+usr/lib/*/libopencv_hfs.so
+usr/lib/*/libopencv_hfs.a
+# xfeatures2d
+usr/include/opencv2/xfeatures2d.hpp
+usr/lib/*/libopencv_xfeatures2d.so
+usr/lib/*/libopencv_xfeatures2d.a
 
