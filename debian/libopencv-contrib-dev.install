@@ -152,8 +152,12 @@ usr/lib/*/libopencv_hfs.so
 usr/lib/*/libopencv_hfs.a
 # xfeatures2d
 usr/include/opencv2/xfeatures2d/*
-
 usr/include/opencv2/xfeatures2d.hpp
 usr/lib/*/libopencv_xfeatures2d.so
 usr/lib/*/libopencv_xfeatures2d.a
+# cvv
+usr/include/opencv2/cvv.hpp
+usr/include/opencv2/cvv/*
+usr/lib/*/libopencv_cvv.a
+usr/lib/*/libopencv_cvv.so
 

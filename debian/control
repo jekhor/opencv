@@ -38,6 +38,8 @@ Build-Depends:
  libtiff-dev,
  libv4l-dev [linux-any],
  libvtk6-dev,
+ qtbase5-dev,
+ libqt5opengl5-dev,
  maven-repo-helper,
  ocl-icd-opencl-dev,
  protobuf-compiler,

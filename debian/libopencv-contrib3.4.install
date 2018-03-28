@@ -29,4 +29,4 @@ usr/lib/*/libopencv_xphoto.so.*
 usr/lib/*/libopencv_sfm.so.*
 usr/lib/*/libopencv_hfs.so.*
 usr/lib/*/libopencv_xfeatures2d.so.*
-
+usr/lib/*/libopencv_cvv.so.*
