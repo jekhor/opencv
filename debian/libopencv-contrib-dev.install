@@ -146,6 +146,12 @@ usr/lib/*/libopencv_sfm.a
 usr/lib/*/libmultiview.a
 usr/lib/*/libcorrespondence.a
 usr/lib/*/libnumeric.a
+# FIXME!!!
+usr/share/OpenCV/3rdparty/lib/*/libcorrespondence.a
+usr/share/OpenCV/3rdparty/lib/*/libmultiview.a
+usr/share/OpenCV/3rdparty/lib/*/libnumeric.a
+
+
 # hfs
 usr/include/opencv2/hfs.hpp
 usr/lib/*/libopencv_hfs.so
