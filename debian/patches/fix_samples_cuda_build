@@ -1,0 +1,12 @@
+--- a/samples/gpu/CMakeLists.txt
++++ b/samples/gpu/CMakeLists.txt
+@@ -50,6 +50,9 @@
+ foreach(sample_filename ${all_samples})
+   ocv_define_sample(tgt ${sample_filename} gpu)
+   ocv_target_link_libraries(${tgt} ${OPENCV_LINKER_LIBS} ${OPENCV_CUDA_SAMPLES_REQUIRED_DEPS})
++  if(HAVE_CUDA AND NOT ANDROID)
++    ocv_target_link_libraries(${tgt} ${CUDA_CUDA_LIBRARY})
++  endif()
+   if(HAVE_opencv_xfeatures2d)
+     ocv_target_link_libraries(${tgt} opencv_xfeatures2d)
+   endif()
